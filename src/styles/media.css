@@ -1,0 +1,98 @@
+@media screen and (max-width: 1600px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+
+  .hero__action__title {
+    font-size: 3.3rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .hero__action__title {
+    font-size: 3rem;
+  }
+
+  .hero__action__text {
+    margin: 32px 0;
+  }
+
+  .nav {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  .hero__action {
+    padding-right: 32px;
+  }
+
+}
+
+@media screen and (max-width: 1020px) {
+
+  #app {
+    width: 80vw;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 32px;
+    justify-items: center;
+  }
+
+  .hero__img {
+    order: -1;
+    width: 70%;
+    max-width: 400px;
+    padding-left: 0;
+  }
+
+  .hero__action {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__action__title {
+    font-size: 2.2rem;
+  }
+
+  .hero__action__text {
+    margin: 24px 0;
+  }
+
+  .hero__action br {
+    content: '';
+  }
+
+  .hero__action br::after {
+    content: ' ';
+  }
+
+  .order {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+  .meat-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .nav {
+    gap: 24px;
+  }
+}
